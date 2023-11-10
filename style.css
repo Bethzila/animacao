@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-family: fantasy; color:rgba(206, 207, 208, 0.969); font-size: 3em; 
+    text-shadow: 0.1em 0.1em #131212;
+    margin: 1em;
+   
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:rgb(209, 207, 209);
+    text-shadow: 0.1em 0.1em #090909;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(213, 191, 236),rgba(141, 46, 46, 0.548), rgb(26, 26, 26));
+    border:0.1em dotted #333;
+}
+
+figure{
+    animation: corac 1s linear infinite
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 50%;
+    padding-top: 15px;
+}
+
+@keyframes corac {
+    0%{opacity:1;}
+    50%{opacity:0.1;}
+    100%{opacity:1;}
+}
